@@ -50,10 +50,7 @@ const Testimonials = () => {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
-                             Minima deleniti earum debitis distinctio molestias deserunt vel ducimus eveniet quasi. 
-                             Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                             Consectetur, magnam tenetur? Sunt eligendi cumque adipisci 
-                             eaque earum consectetur reprehenderit necessitatibus sed harum quia eos asperiores voluptates quasi, illo error quo?
+                             
                         </p>
                     </div>
                 </li>
@@ -69,10 +66,7 @@ const Testimonials = () => {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
-                             Minima deleniti earum debitis distinctio molestias deserunt vel ducimus eveniet quasi. 
-                             Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                             Consectetur, magnam tenetur? Sunt eligendi cumque adipisci 
-                             eaque earum consectetur reprehenderit necessitatibus sed harum quia eos asperiores voluptates quasi, illo error quo?
+                             
                         </p>
                     </div>
                 </li>
@@ -88,10 +82,7 @@ const Testimonials = () => {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
-                             Minima deleniti earum debitis distinctio molestias deserunt vel ducimus eveniet quasi. 
-                             Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                             Consectetur, magnam tenetur? Sunt eligendi cumque adipisci 
-                             eaque earum consectetur reprehenderit necessitatibus sed harum quia eos asperiores voluptates quasi, illo error quo?
+                            
                         </p>
                     </div>
                 </li>
@@ -107,10 +98,7 @@ const Testimonials = () => {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
-                             Minima deleniti earum debitis distinctio molestias deserunt vel ducimus eveniet quasi. 
-                             Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                             Consectetur, magnam tenetur? Sunt eligendi cumque adipisci 
-                             eaque earum consectetur reprehenderit necessitatibus sed harum quia eos asperiores voluptates quasi, illo error quo?
+                             
                         </p>
                     </div>
                 </li>

@@ -1,10 +1,10 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(172, 18, 18, 0.7),#963c3cb3), url('../../assets/tomato_home.png');
+    background: linear-gradient(rgba(58, 0, 0, 0.7),rgba(58, 0, 0, 0.7)), url('../../assets/tomato_home.png');
     background-size: cover;
     background-position: center;
-    color: #ffffff;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,5 +42,17 @@
    .hero-text p{
     font-size: 14px;
     margin: 15px auto 30px;
+   }
+
+   .hero-text .btn{
+    font-size: 14px;
+    padding: 12px 20px;
+   }
+}
+
+@media (max-width: 400px){
+   .hero-text h1{
+    font-size: 26px;
+    max-width: 320px;
    }
 }

@@ -13,3 +13,15 @@
     display: inline-block;
     margin-left: 20px;
 }
+
+@media (max-width: 500px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer ul li{
+        margin: 0 10px;
+    }
+}

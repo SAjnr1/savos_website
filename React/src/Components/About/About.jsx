@@ -16,7 +16,7 @@ const About = () => {
             <p>  </p>
             <p><h3>MISSION:</h3>To produce fresh, nutritious, and affordable tomato-based food products using carefully selected ingredients while empowering local farmers, ensuring customer satisfaction, 
             and contributing to a healthier and more sustainable future.</p>
-            <p><h3>VISSION:</h3>To become the leading provider of high-quality tomato-based foods, 
+            <p><h3>VISION:</h3>To become the leading provider of high-quality tomato-based foods, 
             recognized for delivering exceptional taste, promoting healthy living, 
             and supporting sustainable agriculture in our communities.</p>
         </div>

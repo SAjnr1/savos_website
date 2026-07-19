@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import dark_arrow from '../../assets/next-icon.png'
+import red_next_arrow from '../../assets/red-next-arrow.png'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
             <h1>We Produce And Provide Quality Food Goods</h1>
             <p>We transform fresh, locally grown tomatoes into delicious, high-quality food products that bring convenience, great taste, and healthy nutrition to every home.
             </p>
-            <button className="btn">Explore More <img src={dark_arrow} alt="" /></button>
+            <button className="btn">Explore More <img src={red_next_arrow} alt="" /></button>
         </div>
     </div>
   )

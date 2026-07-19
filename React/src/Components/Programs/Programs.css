@@ -46,6 +46,33 @@
     padding-top: 0;
 }
 
-@media (max-width:650px){
-    
+/*@media (max-width:650px){
+   
+}*/
+
+@media (max-width: 800px){
+    .programs{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .program{
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 500px){
+    .programs{
+        flex-direction: column;
+    }
+
+    .program{
+        flex-basis: 100%;
+    }
+
+   .program:hover .caption{
+        opacity: 1;
+        padding-top: 0;
+        background: rgba(152, 0, 0, 0.55);
+    }
 }

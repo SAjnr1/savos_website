@@ -5,6 +5,9 @@ import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import facebook_icon from '../../assets/facebook-icon.png'
+import instagram_icon from '../../assets/instagram-icon.png'
+import whatsapp_icon from '../../assets/whatsapp-icon.png'
 
 
 const Contact = () => {
@@ -49,7 +52,10 @@ const Contact = () => {
             <ul>
                 <li><img src={mail_icon} alt="" />mastercodexalpha@gmail.com</li>
                 <li><img src={phone_icon} alt="" />+233 244244332</li>
-                <li><img src={location_icon} alt="" />GH-123-54 Accra</li>
+                <li><img src={location_icon} alt="" />P.O. BOX LG 98, LEGON</li>
+                <li><img src={facebook_icon} alt="" />**</li>
+                <li><img src={whatsapp_icon} alt="" />+233 204366038</li>
+                <li><img src={instagram_icon} alt="" />@presec.stem_team</li>
             </ul>
        </div> 
        <div className="contact-col">

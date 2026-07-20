@@ -49,11 +49,11 @@ const Navbar = () => {
         <img src={logo} alt="" className='logo' />
         <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
             <li><Link to='hero' smooth={true} offset={0} onClick={closeMenu}>Home</Link></li>
-            <li><Link to='programs' smooth={true} offset={-220} onClick={closeMenu}>Program</Link></li>
-            <li><Link to='about' smooth={true} offset={-110} onClick={closeMenu}>About Us</Link></li>
-            <li><Link to='campus' smooth={true} offset={-250} onClick={closeMenu}>Campus</Link></li>
-            <li><Link to='testimonials' smooth={true} offset={-215} onClick={closeMenu}>Testimonials</Link></li>
-            <li><button className='btn'><Link to='contact' smooth={true} offset={-230} onClick={closeMenu}>Contact Us</Link></button></li>
+            <li><Link to='programs' smooth={true} offset={-260} onClick={closeMenu}>Program</Link></li>
+            <li><Link to='about' smooth={true} offset={-150} onClick={closeMenu}>About Us</Link></li>
+            <li><Link to='campus' smooth={true} offset={-260} onClick={closeMenu}>Campus</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-260} onClick={closeMenu}>Testimonials</Link></li>
+            <li><button className='btn'><Link to='contact' smooth={true} offset={-260} onClick={closeMenu}>Contact Us</Link></button></li>
         </ul>
         <img
           src={menu_icon}

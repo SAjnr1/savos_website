@@ -51,8 +51,8 @@ const Navbar = () => {
             <li><Link to='hero' smooth={true} offset={0} onClick={closeMenu}>Home</Link></li>
             <li><Link to='programs' smooth={true} offset={-260} onClick={closeMenu}>Services</Link></li>
             <li><Link to='campus' smooth={true} offset={-260} onClick={closeMenu}>Products</Link></li>
-            <li><Link to='about' smooth={true} offset={-150} onClick={closeMenu}>About Us</Link></li>
-            <li><Link to='testimonials' smooth={true} offset={-260} onClick={closeMenu}>Testimonials</Link></li>
+            <li><Link to='about' smooth={true} offset={-165} onClick={closeMenu}>About Us</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-285} onClick={closeMenu}>Testimonials</Link></li>
             <li><button className='btn'><Link to='contact' smooth={true} offset={-260} onClick={closeMenu}>Contact Us</Link></button></li>
         </ul>
         <img

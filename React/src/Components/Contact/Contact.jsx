@@ -5,7 +5,6 @@ import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
-import facebook_icon from '../../assets/facebook-icon.png'
 import instagram_icon from '../../assets/instagram-icon.png'
 import whatsapp_icon from '../../assets/whatsapp-icon.png'
 
@@ -53,7 +52,6 @@ const Contact = () => {
                 <li><img src={mail_icon} alt="" />savos2.0@gmail.com</li>
                 <li><img src={phone_icon} alt="" />+233 558 877 516</li>
                 <li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li>
-                <li><img src={facebook_icon} alt="" />**</li>
                 <li><img src={whatsapp_icon} alt="" />+233 558 877 516</li>
                 <li><img src={instagram_icon} alt="" />@savos2.0</li>
             </ul>
@@ -64,7 +62,7 @@ const Contact = () => {
             <input type="text" name='name' placeholder='Enter your name ' required/>
             <label>Phone number</label>
             <input type="tel" name='phone' placeholder='Enter your mobile number ' required/>
-            <label>Write your message here</label>
+            <label>Write your message here...</label>
             <textarea name="message"  rows="6" placeholder='Enter your message'></textarea>
             <button type='submit' className="btn dark-btn">Submit now <img src={white_arrow} alt="" /></button>
         </form>

@@ -16,11 +16,11 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subTitle='Our PROGRAM' title='What We Offer'/>
+        <Title subTitle='Our SERVICES' title='What We Offer'/>
         <Programs/>
-        <About/>
-        <Title subTitle='Gallery' title='Campus Photos'/>
+        <Title subTitle='Gallery' title='Product Photos'/>
         <Campus/>
+        <About/>
         <Title subTitle='Testimonials' title='What Students Say'/>  
         <Testimonials/> 
         <Title subTitle='Contact Us' title='Get In Touch'/>

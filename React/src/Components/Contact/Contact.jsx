@@ -49,11 +49,11 @@ const Contact = () => {
             tempora consectetur quae libero blanditiis omnis deleniti sint quam. 
             Blanditiis doloribus at accusantium saepe perferendis quibusdam vel.</p>
             <ul>
-                <li><img src={mail_icon} alt="" />savos2.0@gmail.com</li>
                 <li><img src={phone_icon} alt="" />+233 558 877 516</li>
-                <li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li>
+                <li><img src={mail_icon} alt="" />savos2.0@gmail.com</li>
                 <li><img src={whatsapp_icon} alt="" />+233 558 877 516</li>
                 <li><img src={instagram_icon} alt="" />@savos2.0</li>
+                <li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li>
             </ul>
        </div> 
        <div className="contact-col">

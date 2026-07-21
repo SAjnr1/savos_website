@@ -44,10 +44,9 @@ const Contact = () => {
     <div className='contact'>
        <div className="contact-col">
          <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-         <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Quo, quisquam. Ad doloremque illum 
-            tempora consectetur quae libero blanditiis omnis deleniti sint quam. 
-            Blanditiis doloribus at accusantium saepe perferendis quibusdam vel.</p>
+         <p>We’d love to hear from you! Whether you have questions about our tomato ketchup, authentic shito, tomato coating, 
+          or our innovative tomato-based facial treatments and cosmetics, or you’d like to share your feedback and experiences, 
+          we’re all ears. Our team is ready to assist you and will respond promptly. Thank you for choosing SAVOS!</p>
             <ul>
                 <li><img src={phone_icon} alt="" />+233 558 877 516</li>
                 <li><img src={mail_icon} alt="" />savos2.0@gmail.com</li>

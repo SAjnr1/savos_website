@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import about_img from '../../assets/about.png'
 import play_icon from '../../assets/red-arrow.png'
+// The image dimensions are 1194 × 1144 pixels.
 
 const About = () => {
   return (

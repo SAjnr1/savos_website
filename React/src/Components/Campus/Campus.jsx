@@ -1,9 +1,9 @@
 import React from 'react'
 import './Campus.css'
-import gallery_1 from '../../assets/gallery-1.png'
-import gallery_2 from '../../assets/gallery-2.png'
-import gallery_3 from '../../assets/gallery-3.png'
-import gallery_4 from '../../assets/gallery-4.png'
+import gallery_1 from '../../assets/savos-shito.png'
+import gallery_2 from '../../assets/savos-soothing-gel.png'
+import gallery_3 from '../../assets/savos_ketchup.png'
+import gallery_4 from '../../assets/savos-body-cream.png'
 // The image dimensions are 467 × 588 pixels.
 // import white_arrow from '../../assets/white-arrow.png'
 

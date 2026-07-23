@@ -18,7 +18,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "8899a924-6ef7-49a8-853a-1e8531bff397");
+    formData.append("access_key", "6417919e-3b86-484b-af10-28ac28499515");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -49,7 +49,7 @@ const Contact = () => {
           we’re all ears. Our team is ready to assist you and will respond promptly. Thank you for choosing SAVOS!</p>
             <ul>
                 <li><img src={phone_icon} alt="" />+233 558 877 516</li>
-                <li><img src={mail_icon} alt="" />savos2.0@gmail.com</li>
+                <li><img src={mail_icon} alt="" />savos2.0africa@gmail.com</li>
                 <li><img src={whatsapp_icon} alt="" />+233 558 877 516</li>
                 <li><img src={instagram_icon} alt="" />@savos2.0</li>
                 <li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li>

@@ -16,8 +16,9 @@
 }
 
 .hero-text h1{
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 600;
+    -webkit-text-stroke: 3px #ff3333; 
 }
 
 .hero-text h2{

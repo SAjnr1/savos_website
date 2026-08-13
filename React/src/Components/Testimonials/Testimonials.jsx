@@ -82,7 +82,8 @@ const Testimonials = () => {
                         </div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
+                            Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quo
+                            s fugit?
                             
                         </p>
                     </div>

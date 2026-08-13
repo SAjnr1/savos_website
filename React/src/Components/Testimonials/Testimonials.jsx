@@ -76,14 +76,12 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_3} alt="" />
                             <div>
-                                <h3>William Jackson</h3>
-                                <span>Edusity, USA</span>
+                                <h3>Maliq</h3>
+                                <span>Cornell University, New York</span>
                             </div>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quo
-                            s fugit?
+                            This ketchup has completely transformed my meals! The rich, balanced flavor is exactly what I've been searching for – not too sweet, not too vinegary, just pure tomato perfection. It elevates everything from simple burgers and fries to more complex dishes. I'm officially hooked and will be recommending it to everyone!
                             
                         </p>
                     </div>

@@ -48,11 +48,11 @@ const Contact = () => {
           or our innovative tomato-based facial treatments and cosmetics, or you’d like to share your feedback and experiences, 
           we’re all ears. Our team is ready to assist you and will respond promptly. Thank you for choosing SAVOS!</p>
             <ul>
-                <li><img src={phone_icon} alt="" />+233 558 877 516</li>
-                <li><img src={mail_icon} alt="" />savos2.0africa@gmail.com</li>
+                <a href = "tel:+233558877516"><li><img src={phone_icon} alt="" />+233 558 877 516</li></a>
+                <a href = "mailto:savos2.0africa@gmail.com"><li><img src={mail_icon} alt="" />savos2.0africa@gmail.com</li></a>
                 <li><img src={whatsapp_icon} alt="" />+233 558 877 516</li>
-                <li><img src={instagram_icon} alt="" />@savos2.0</li>
-                <li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li>
+                <a href = "https://www.instagram.com/savos2.0africa?igsh=cnU2a3p5dDg0eDg4"><li><img src={instagram_icon} alt="" />@savos2.0africa</li></a>
+                <a href = "https://maps.app.goo.gl/bqJVkcikpMcwJ5DFA"><li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li></a>
             </ul>
        </div> 
        <div className="contact-col">

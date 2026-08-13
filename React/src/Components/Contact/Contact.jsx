@@ -47,13 +47,15 @@ const Contact = () => {
          <p>We’d love to hear from you! Whether you have questions about our tomato ketchup, authentic shito, tomato coating, 
           or our innovative tomato-based facial treatments and cosmetics, or you’d like to share your feedback and experiences, 
           we’re all ears. Our team is ready to assist you and will respond promptly. Thank you for choosing SAVOS!</p>
-            <ul>
+
+          <ul>
                 <a href = "tel:+233558877516"><li><img src={phone_icon} alt="" />+233 558 877 516</li></a>
                 <a href = "mailto:savos2.0africa@gmail.com"><li><img src={mail_icon} alt="" />savos2.0africa@gmail.com</li></a>
                 <a href = "https://wa.me/+233558877516"><li><img src={whatsapp_icon} alt="" />+233 558 877 516</li></a>
                 <a href = "https://www.instagram.com/savos2.0africa?igsh=cnU2a3p5dDg0eDg4"><li><img src={instagram_icon} alt="" />@savos2.0africa</li></a>
                 <a href = "https://maps.app.goo.gl/bqJVkcikpMcwJ5DFA"><li><img src={location_icon} alt="" />P. O. BOX 46, Aburi</li></a>
-            </ul>
+        </ul>
+
        </div> 
        <div className="contact-col">
         <form onSubmit={onSubmit}>
@@ -61,12 +63,14 @@ const Contact = () => {
             <input type="text" name='name' placeholder='Enter your name ' required/>
             <label>Phone number</label>
             <input type="tel" name='phone' placeholder='Enter your mobile number ' required/>
-            <label>Write your message here</label>
-            <textarea name="message"  rows="6" placeholder='Enter your message'></textarea>
+            <label>Write your message</label>
+            <textarea name="message"  rows="6" placeholder='Enter your message, testimonial and comment here'></textarea>
             <button type='submit' className="btn dark-btn">Submit now <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
        </div> 
+
+       
     </div>
   )
 }

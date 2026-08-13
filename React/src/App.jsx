@@ -11,6 +11,7 @@ import Footer from './Components/Footer/footer'
 
 
 const App = () => {
+  
   return (
     <div>
       <Navbar/>

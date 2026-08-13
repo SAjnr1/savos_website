@@ -81,7 +81,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <p>
-                            This ketchup has completely transformed my meals! The rich, balanced flavor is exactly what I've been searching for – not too sweet, not too vinegary, just pure tomato perfection. It elevates everything from simple burgers and fries to more complex dishes. I'm officially hooked and will be recommending it to everyone!
+                            This ketchup has completely transformed my meals! The rich, balanced flavor is exactly what I've been searching for not too sweet, not too vinegary, just pure tomato perfection. It elevates everything from simple burgers and fries to more complex dishes. I'm officially hooked and will be recommending it to everyone!
                             
                         </p>
                     </div>
@@ -91,8 +91,8 @@ const Testimonials = () => {
                         <div className="user-info">
                             <img src={user_4} alt="" />
                             <div>
-                                <h3>William Jackson</h3>
-                                <span>Edusity, USA</span>
+                                <h3>Anna Aboagye Bonner</h3>
+                                <span>International Community School, Ghana</span>
                             </div>
                         </div>
                         <p>

@@ -96,8 +96,10 @@ const Testimonials = () => {
                             </div>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Voluptatum dignissimos sed voluptate ipsa. Molestias ea natus quos fugit?
+                            I was genuinely impressed by the website and the vision behind the brand. 
+                            It’s inspiring to see an idea turn into something practical and creative, from tomato sauce to plans for ketchup, shito, and more. 
+                            Coming from a school with limited opportunities to explore practical projects, I find what you’ve created truly inspiring. 
+                            I’m excited to see how far the brand goes and proud to support the journey from the beginning.
                              
                         </p>
                     </div>

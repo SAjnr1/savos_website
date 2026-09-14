@@ -178,7 +178,7 @@ button:disabled {
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 
 .comment-body {

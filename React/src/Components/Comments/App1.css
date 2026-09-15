@@ -33,7 +33,7 @@ main {
   min-width: 300px;
   min-height: 300px;
   padding: 35px 35px 35px 35px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 40px  rgba(0, 0, 0, 0.05);
   border-radius: 15px;
 }
 
@@ -200,7 +200,7 @@ button:disabled {
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  font-family: Georgia, serif;
+  font-family:monospace;
 }
 
 .comment-body {

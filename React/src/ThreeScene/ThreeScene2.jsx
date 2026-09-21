@@ -104,6 +104,12 @@ const ThreeScene = ({
     let model = null
     let baseScale = 1
 
+    // Axis the model idly spins around when not being dragged.
+    // A diagonal (x + y) axis instead of a pure Y axis gives the
+    // continuous rotation a tumbling, non-flat feel. Tweak the
+    // component weights to change the tilt of the spin.
+    const spinAxis = new THREE.Vector3(0.4, 1, 0).normalize()
+
     // The container width (in px) at which the model renders at
     // baseScale. As the container shrinks/grows below/above this,
     // the model's actual scale is adjusted proportionally in resize().
@@ -112,7 +118,7 @@ const ThreeScene = ({
     const loader = new GLTFLoader()
 
     loader.load(
-      '/models/ultrasonic-holder.glb',
+      '/models/savos-shito.glb',
 
       (gltf) => {
         console.log('3D model loaded successfully')
@@ -149,6 +155,16 @@ const ThreeScene = ({
         model.position.x += modelPosition.x
         model.position.y += modelPosition.y
         model.position.z += modelPosition.z
+
+        // ======================================
+        // STAND MODEL UPRIGHT
+        // ======================================
+        // The source .glb is exported lying flat (its "up" axis is
+        // Z instead of Y), so rotate it -90° around X to stand it
+        // on its base. Flip the sign (+Math.PI / 2) if it lands
+        // upside down, or use rotation.z instead if it's lying on
+        // its side rather than its back.
+        model.rotation.x = -Math.PI / 2
 
         // ======================================
         // SCALE MODEL
@@ -319,7 +335,7 @@ const ThreeScene = ({
       // ======================================
 
       if (model && !isDraggingRef.current) {
-        model.rotation.y += 0.003
+        model.rotateOnWorldAxis(spinAxis, 0.02)
       }
 
       renderer.render(

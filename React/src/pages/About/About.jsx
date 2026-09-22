@@ -19,7 +19,7 @@ const About = () => {
     </div>
        <div className="project-lead">
         <div className="profile">
-          <h3>Mansura Abdullah</h3>
+          <h3>Abdullah Mansura</h3>
           <h5>Chief Executive Officer (CEO)</h5>
           <p>Akumadan in the Offinso North District of Ghana faces significant post-harvest losses 
             in tomato farming due to market gluts, poor packaging, inadequate storage and infrastructure,
@@ -43,7 +43,7 @@ const About = () => {
           <img src={person1} className='propic'/>
         </div>
         <div className="profile">
-          <h3>Emmanuella Agyei Boadiwaa</h3>
+          <h3>Agyei Boadiwaa Emmanuella</h3>
           <h5>Finance Manager</h5>
           <p>I have always been interested in agriculture and the important role farmers play in 
             providing food for our communities. While thinking about tomatoes, 
@@ -57,7 +57,7 @@ const About = () => {
        </div>
        <div className="project-lead">
         <div className="profile">
-          <h3>Rejoyce Dellor Mawumelon</h3>
+          <h3>Dellor Mawumelon Rejoyce</h3>
           <h5>Production Manager</h5>
           <p>The idea behind SAVOS started with my curiosity about how ordinary tomatoes could be 
             turned into different useful products. I began thinking about products such as ketchup 
@@ -74,10 +74,10 @@ const About = () => {
        </div>
        <div className="project-lead">
         <div className="profile-picture">
-          <img src={person4} className='propic'/>
+          <img src={about_img} className='propic'/>
         </div>
         <div className="profile">
-          <h3>Opokua Ansong</h3>
+          <h3>Arthur Adelina Kwakyewaa</h3>
           <h5>Marketing Director</h5>
           <p>I wanted to be part of creating a business from an idea that we developed ourselves. 
             I became interested in tomatoes because they are widely available and can be used to make 

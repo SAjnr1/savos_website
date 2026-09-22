@@ -19,6 +19,8 @@
     font-size: 65px;
     font-weight: 600;
     -webkit-text-stroke: 3px #ff3333; 
+    color: white;
+     paint-order: stroke fill; 
 }
 
 .hero-text h2{

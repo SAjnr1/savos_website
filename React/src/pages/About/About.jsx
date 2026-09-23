@@ -2,10 +2,10 @@ import React from 'react'
 import './About.css'
 import Title from '../../Components/Title/Title'
 import Navbar from '../../Components/Navbar/Navbar'
-import about_img from '../../assets/about.png'
 import person1 from '../../assets/person1.png'
 import person2 from '../../assets/person2.png'
 import person4 from '../../assets/person4.png'
+import person3 from '../../assets/person3.png'
 import Footer from '../../Components/Footer/footer'
 import play_icon from '../../assets/red-arrow.png'
 // The image dimensions are 1194 × 1144 pixels.
@@ -69,12 +69,12 @@ const About = () => {
             That became the foundation of SAVOS and motivated us to explore tomato processing together.</p>
         </div>
         <div className="profile-picture">
-          <img src={about_img} className='propic'/>
+          <img src={person3} className='propic'/>
         </div>
        </div>
        <div className="project-lead">
         <div className="profile-picture">
-          <img src={about_img} className='propic'/>
+          <img src={person4} className='propic'/>
         </div>
         <div className="profile">
           <h3>Arthur Adelina Kwakyewaa</h3>
